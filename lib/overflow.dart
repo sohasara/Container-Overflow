@@ -34,19 +34,13 @@ class OverFlow extends StatelessWidget {
                   Container(
                     height: 200,
                     width: 200,
+                    padding: const EdgeInsets.all(10),
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(18),
                     ),
                     child: const Column(
-                      children: [
-                        Text(
-                          'Container Overflow',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ],
+                      children: [],
                     ),
                   ),
                 ],
