@@ -16,6 +16,18 @@ class OverFlow extends StatelessWidget {
           ),
         ),
       ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+            height: 400,
+            width: 400,
+            decoration: BoxDecoration(
+              color: Colors.pink[200],
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
