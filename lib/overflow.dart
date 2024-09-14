@@ -1,3 +1,4 @@
+import 'package:container_overflow/text.dart';
 import 'package:flutter/material.dart';
 
 class OverFlow extends StatelessWidget {
@@ -40,7 +41,13 @@ class OverFlow extends StatelessWidget {
                       borderRadius: BorderRadius.circular(18),
                     ),
                     child: const Column(
-                      children: [],
+                      children: [
+                        Textt(),
+                        Textt(),
+                        Textt(),
+                        Textt(),
+                        // Textt(),
+                      ],
                     ),
                   ),
                 ],
