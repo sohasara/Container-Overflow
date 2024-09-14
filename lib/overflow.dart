@@ -28,6 +28,18 @@ class OverFlow extends StatelessWidget {
                 color: Colors.pink[200],
                 borderRadius: BorderRadius.circular(18),
               ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    height: 100,
+                    width: 100,
+                    decoration: const BoxDecoration(
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
+              ),
             ),
           ],
         ),
