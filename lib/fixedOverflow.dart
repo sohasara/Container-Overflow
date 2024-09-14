@@ -9,6 +9,7 @@ class FixedOverflow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.pink[50],
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.pink,
