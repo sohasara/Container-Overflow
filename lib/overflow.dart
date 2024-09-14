@@ -42,10 +42,10 @@ class OverFlow extends StatelessWidget {
                     ),
                     child: const Column(
                       children: [
-                        Textt(),
-                        Textt(),
-                        Textt(),
-                        Textt(),
+                        TextFlow(),
+                        TextFlow(),
+                        TextFlow(),
+                        TextFlow(),
                         // Textt(),
                       ],
                     ),

@@ -45,12 +45,12 @@ class FixedOverflow extends StatelessWidget {
                     child: const SingleChildScrollView(
                       child: Column(
                         children: [
-                          Textt(),
-                          Textt(),
-                          Textt(),
-                          Textt(),
-                          Textt(),
-                          Textt(),
+                          TextFlow(),
+                          TextFlow(),
+                          TextFlow(),
+                          TextFlow(),
+                          TextFlow(),
+                          TextFlow(),
                         ],
                       ),
                     ),

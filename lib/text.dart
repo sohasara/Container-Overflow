@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Textt extends StatelessWidget {
-  const Textt({super.key});
+class TextFlow extends StatelessWidget {
+  const TextFlow({super.key});
 
   @override
   Widget build(BuildContext context) {
