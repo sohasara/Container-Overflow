@@ -42,12 +42,14 @@ class OverFlow extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Container(
-                            height: 210,
-                            width: 150,
-                            decoration: BoxDecoration(
-                              color: Colors.pink,
-                              borderRadius: BorderRadius.circular(18),
+                          Flexible(
+                            child: Container(
+                              height: 120,
+                              width: 150,
+                              decoration: BoxDecoration(
+                                color: Colors.pink,
+                                borderRadius: BorderRadius.circular(18),
+                              ),
                             ),
                           ),
                         ],
