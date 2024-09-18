@@ -1,4 +1,3 @@
-import 'package:container_overflow/text.dart';
 import 'package:flutter/material.dart';
 
 class OverFlow extends StatelessWidget {
