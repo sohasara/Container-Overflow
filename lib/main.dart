@@ -1,5 +1,5 @@
-import 'package:container_overflow/fixedOverflow.dart';
-//import 'package:container_overflow/overflow.dart';
+//import 'package:container_overflow/fixedOverflow.dart';
+import 'package:container_overflow/overflow.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.light(),
       debugShowCheckedModeBanner: false,
-      //home: const OverFlow(),
-      home: const FixedOverflow(),
+      home: const OverFlow(),
+      //home: const FixedOverflow(),
     );
   }
 }

@@ -41,13 +41,7 @@ class OverFlow extends StatelessWidget {
                       borderRadius: BorderRadius.circular(18),
                     ),
                     child: const Column(
-                      children: [
-                        TextFlow(),
-                        TextFlow(),
-                        TextFlow(),
-                        TextFlow(),
-                        TextFlow(),
-                      ],
+                      children: [],
                     ),
                   ),
                 ],
