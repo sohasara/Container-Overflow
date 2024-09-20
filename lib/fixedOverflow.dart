@@ -14,7 +14,7 @@ class FixedOverflow extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.pink,
         title: const Text(
-          'Container OverFlow',
+          'Coseries',
           style: TextStyle(
             fontWeight: FontWeight.bold,
           ),

@@ -2,6 +2,8 @@
 import 'package:container_overflow/overflow.dart';
 import 'package:flutter/material.dart';
 
+import 'fixedOverflow.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -14,8 +16,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.light(),
       debugShowCheckedModeBanner: false,
-      home: const OverFlow(),
-      //home: const FixedOverflow(),
+      // home: const OverFlow(),
+      home: const FixedOverflow(),
     );
   }
 }
